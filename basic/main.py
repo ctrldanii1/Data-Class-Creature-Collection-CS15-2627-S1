@@ -12,9 +12,7 @@ gwen = Variant("Gwen Stacy", "Spider-Woman", 65, 165.0)
 hobie = Variant("Hobie Brown", "Spider-Punk", 138, 210.0)
 
 print("Name:", miles.name, "Alias:", miles.alias, "Earth:", miles.earth, "Health:", miles.health)
-
 print("Name:", gwen.name, "Alias:", gwen.alias, "Earth:", gwen.earth, "Health:", gwen.health)
-
 print("Name:", hobie.name, "Alias:", hobie.alias, "Earth:", hobie.earth, "Health:", hobie.health)
 
 
@@ -26,7 +24,5 @@ miles.health = 200.0
 
 print("\nMiles Morales Updated...")
 print("Name:", miles.name, "Alias:", miles.alias, "Earth:", miles.earth, "Health:", miles.health)
-
 print("Name:", gwen.name, "Alias:", gwen.alias, "Earth:", gwen.earth, "Health:", gwen.health)
-
 print("Name:", hobie.name, "Alias:", hobie.alias, "Earth:", hobie.earth, "Health:", hobie.health)

@@ -29,10 +29,12 @@ while True:
     except ValueError:
         print("Error: Please enter a valid number for the health.")
 
-user_variant = Variant(name, alias, earth, health)
 
+user_variant = Variant(name, alias, earth, health)
 print("\nUpdated Variant Collection")
 
 
-print("New Variant:", user_variant.name, "\nAlias:", user_variant.alias, "\nEarth:", user_variant.earth, "\nHealth:", user_variant.health)
-
+print("New Variant:", user_variant.name, "|Alias:", user_variant.alias, "|Earth:", user_variant.earth, "|Health:", user_variant.health)
+print("Name:", miles.name, "|Alias:", miles.alias, "|Earth:", miles.earth, "|Health:", miles.health)
+print("Name:", gwen.name, "|Alias:", gwen.alias, "|Earth:", gwen.earth, "|Health:", gwen.health)
+print("Name:", hobie.name, "|Alias:", hobie.alias, "|Earth:", hobie.earth, "|Health:", hobie.health)
